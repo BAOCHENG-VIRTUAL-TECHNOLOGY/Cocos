@@ -1,6 +1,6 @@
 # Cocos
 
-|                            |                                                              |
+| Content                    |                                                              |
 | -------------------------- | ------------------------------------------------------------ |
 | Cocos官网                  | https://www.cocos.com/                                       |
 | COCOS CREATOR              | https://docs.cocos.com/creator/3.8/manual/zh/                |
