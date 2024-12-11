@@ -1,4 +1,4 @@
-import { _decorator, Node, CCInteger, Enum} from 'cc';
+import { _decorator, Node, CCInteger, Enum,CCString} from 'cc';
 const { ccclass, property,integer,float,type } = _decorator;
 @ccclass('typeTest1')
 class MyClass {
@@ -6,7 +6,7 @@ class MyClass {
     index =0;
     @type([Node])//声明属性children的cc类型为Node数组
     children:Node[]=[];
-    @type(String)//不应该使用构造函数String。等价于CCString。也可以选择不声明类型
+    @type(CCString)//不应该使用构造函数String。等价于CCString。也可以选择不声明类型
     text1 = '';
     //JavaScript原始类型'number','string','boolean'通常可以不用声明
     @property

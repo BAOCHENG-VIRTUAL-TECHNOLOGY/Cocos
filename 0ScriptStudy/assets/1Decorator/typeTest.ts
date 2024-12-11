@@ -1,4 +1,4 @@
-import { _decorator, Node, CCInteger, Enum} from 'cc';
+import { _decorator, Node, CCInteger, Enum, CCString} from 'cc';
 const { ccclass, property } = _decorator;
 
 enum A{
@@ -16,7 +16,7 @@ class MyClass {
     @property({type:[Node]})
     children:Node[]=[];
     @property({
-        type:String,
+        type:CCString,
     })//警告：不应该使用构造函数String。等价于CCString。也可以选择不声明类型
     text="";
     @property
