@@ -1,0 +1,39 @@
+2024-12-13 17:36:22 Version 373
+2024-12-13 17:36:22 CmdLine: C:\ProgramData\cocos\editors\Creator\3.7.3\resources\tools\lightmap-tools/LightFX http://127.0.0.1:8000 
+2024-12-13 17:36:22 -: Building meshes 0
+2024-12-13 17:36:22 -: Building terrain 0
+2024-12-13 17:36:22 -: Building embree scene
+2024-12-13 17:36:22 -: Mesh tasks 0
+2024-12-13 17:36:22 -: Terrain tasks 0
+2024-12-13 17:36:22 -: Starting thread 0
+2024-12-13 17:36:22 -: Starting thread 1
+2024-12-13 17:36:22 -: Starting thread 2
+2024-12-13 17:36:22 -: Starting thread 3
+2024-12-13 17:36:22 -: Starting thread 4
+2024-12-13 17:36:22 -: Starting thread 5
+2024-12-13 17:36:22 -: Starting thread 6
+2024-12-13 17:36:22 -: Starting thread 7
+2024-12-13 17:36:22 -: Starting thread 8
+2024-12-13 17:36:22 -: Starting thread 9
+2024-12-13 17:36:22 -: Starting thread 10
+2024-12-13 17:36:22 -: Starting thread 11
+2024-12-13 17:36:22 -: Starting thread 12
+2024-12-13 17:36:22 -: Starting thread 13
+2024-12-13 17:36:22 -: Starting thread 14
+2024-12-13 17:36:22 -: Starting thread 15
+2024-12-13 17:36:22 -: Starting thread 16
+2024-12-13 17:36:22 -: Starting thread 17
+2024-12-13 17:36:23 Start 0
+
+2024-12-13 17:36:23 Build lighting 100
+
+2024-12-13 17:36:23 Delete renderer
+2024-12-13 17:36:23 Save world...
+2024-12-13 17:36:23 Writing lfx file 'output/lfx.out'
+2024-12-13 17:36:23 Writing lfx file end.
+2024-12-13 17:36:23 Save world end.
+2024-12-13 17:36:23 Clear world...
+2024-12-13 17:36:23 Clear world end.
+2024-12-13 17:36:23 Emit finished
+2024-12-13 17:36:23 Delete world
+2024-12-13 17:36:23 Wait to stop

@@ -1,0 +1,7740 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "scene-002",
+    "_objFlags": 0,
+    "_native": "",
+    "scene": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Scene",
+    "_name": "scene-002",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 15
+      },
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 21
+      }
+    ],
+    "_active": true,
+    "_components": [],
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "autoReleaseAssets": false,
+    "_globals": {
+      "__id__": 23
+    },
+    "_id": "f31a9faf-e23b-440a-a21b-ad852f18e5cc"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Main Light",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0.938,
+      "y": 5.553,
+      "z": 3.22
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": -0.06397656665577071,
+      "y": -0.44608233363525845,
+      "z": -0.8239028751062036,
+      "w": -0.3436591377065261
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": -117.894,
+      "y": -194.909,
+      "z": 38.562
+    },
+    "_id": "c0y6F5f+pAvI805TdmxIjx"
+  },
+  {
+    "__type__": "cc.DirectionalLight",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 250,
+      "b": 240,
+      "a": 255
+    },
+    "_useColorTemperature": false,
+    "_colorTemperature": 6550,
+    "_staticSettings": {
+      "__id__": 4
+    },
+    "_visibility": -325058561,
+    "_illuminanceHDR": 65000,
+    "_illuminance": 65000,
+    "_illuminanceLDR": 1.6927083333333335,
+    "_shadowEnabled": false,
+    "_shadowPcf": 0,
+    "_shadowBias": 0.00001,
+    "_shadowNormalBias": 0,
+    "_shadowSaturation": 1,
+    "_shadowDistance": 50,
+    "_shadowInvisibleOcclusionRange": 200,
+    "_csmLevel": 4,
+    "_csmLayerLambda": 0.75,
+    "_csmOptimizationMode": 2,
+    "_csmAdvancedOptions": false,
+    "_csmLayersTransition": false,
+    "_csmTransitionRange": 0.05,
+    "_shadowFixedArea": false,
+    "_shadowNear": 0.1,
+    "_shadowFar": 10,
+    "_shadowOrthoSize": 5,
+    "_id": "597uMYCbhEtJQc0ffJlcgA"
+  },
+  {
+    "__type__": "cc.StaticLightSettings",
+    "_baked": false,
+    "_editorOnly": false,
+    "_castShadow": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Main Camera",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 6
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -10,
+      "y": 10,
+      "z": 10
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": -0.27781593346944056,
+      "y": -0.36497167621709875,
+      "z": -0.11507512748638377,
+      "w": 0.8811195706053617
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": -35,
+      "y": -45,
+      "z": 0
+    },
+    "_id": "c9DMICJLFO5IeO07EPon7U"
+  },
+  {
+    "__type__": "cc.Camera",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_projection": 1,
+    "_priority": 0,
+    "_fov": 45,
+    "_fovAxis": 0,
+    "_orthoHeight": 10,
+    "_near": 1,
+    "_far": 1000,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 51,
+      "g": 51,
+      "b": 51,
+      "a": 255
+    },
+    "_depth": 1,
+    "_stencil": 0,
+    "_clearFlags": 14,
+    "_rect": {
+      "__type__": "cc.Rect",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "_aperture": 19,
+    "_shutter": 7,
+    "_iso": 0,
+    "_screenScale": 1,
+    "_visibility": 1822425087,
+    "_targetTexture": null,
+    "_cameraType": -1,
+    "_trackingType": 0,
+    "_id": "7dWQTpwS5LrIHnc1zAPUtf"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Light Probe Group",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 8
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "42WUEvIG1Bzo9KNThyeHQO"
+  },
+  {
+    "__type__": "cc.LightProbeGroup",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 7
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_probes": [
+      {
+        "__type__": "cc.Vec3",
+        "x": -5,
+        "y": -5,
+        "z": -5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -5,
+        "y": -5,
+        "z": 0
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -5,
+        "y": -5,
+        "z": 5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -5,
+        "y": 0,
+        "z": -5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -5,
+        "y": 0,
+        "z": 0
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -5,
+        "y": 0,
+        "z": 5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -5,
+        "y": 5,
+        "z": -5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -5,
+        "y": 5,
+        "z": 0
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -5,
+        "y": 5,
+        "z": 5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": -5,
+        "z": -5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": -5,
+        "z": 0
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": -5,
+        "z": 5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 5,
+        "z": -5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 5,
+        "z": 0
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 5,
+        "z": 5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": -5,
+        "z": -5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": -5,
+        "z": 0
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": -5,
+        "z": 5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": 0,
+        "z": -5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": 0,
+        "z": 0
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": 0,
+        "z": 5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": 5,
+        "z": -5
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": 5,
+        "z": 0
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": 5,
+        "z": 5
+      }
+    ],
+    "_method": 0,
+    "_minPos": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": -5,
+      "z": -5
+    },
+    "_maxPos": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "_nProbesX": 3,
+    "_nProbesY": 3,
+    "_nProbesZ": 3,
+    "_id": "37uaauMYNDVpVGCSVHoY1M"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Plane",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 10
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -0.5,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "d1LiLoDedLe7mY9iD/aWw9"
+  },
+  {
+    "__type__": "cc.MeshRenderer",
+    "_name": "Plane<ModelComponent>",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 9
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_materials": [
+      {
+        "__uuid__": "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "__expectedType__": "cc.Material"
+      }
+    ],
+    "_visFlags": 0,
+    "bakeSettings": {
+      "__id__": 11
+    },
+    "_mesh": {
+      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
+      "__expectedType__": "cc.Mesh"
+    },
+    "_shadowCastingMode": 0,
+    "_shadowReceivingMode": 1,
+    "_shadowBias": 0,
+    "_shadowNormalBias": 0,
+    "_reflectionProbeId": -1,
+    "_enableMorph": true,
+    "_id": "ecNjpR70xFwrUW0M8K44Op"
+  },
+  {
+    "__type__": "cc.ModelBakeSettings",
+    "texture": null,
+    "uvParam": {
+      "__type__": "cc.Vec4",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0
+    },
+    "_bakeable": false,
+    "_castShadow": false,
+    "_receiveShadow": false,
+    "_recieveShadow": false,
+    "_lightmapSize": 64,
+    "_useLightProbe": false,
+    "_bakeToLightProbe": true,
+    "_reflectionProbeType": 0,
+    "_bakeToReflectionProbe": true,
+    "_probeCubemap": null
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Cube",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 13
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -2.303,
+      "y": 0,
+      "z": 1.568
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "7e6WMj/pNMlasIFqobPx8u"
+  },
+  {
+    "__type__": "cc.MeshRenderer",
+    "_name": "Cube<ModelComponent>",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 12
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_materials": [
+      {
+        "__uuid__": "255df4d0-fb4a-4f42-9941-3394b1990007",
+        "__expectedType__": "cc.Material"
+      }
+    ],
+    "_visFlags": 0,
+    "bakeSettings": {
+      "__id__": 14
+    },
+    "_mesh": {
+      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
+      "__expectedType__": "cc.Mesh"
+    },
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 1,
+    "_shadowBias": 0,
+    "_shadowNormalBias": 0,
+    "_reflectionProbeId": -1,
+    "_enableMorph": true,
+    "_id": "32fK12EcpBcZQo8xGQQn+z"
+  },
+  {
+    "__type__": "cc.ModelBakeSettings",
+    "texture": null,
+    "uvParam": {
+      "__type__": "cc.Vec4",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0
+    },
+    "_bakeable": false,
+    "_castShadow": false,
+    "_receiveShadow": false,
+    "_recieveShadow": false,
+    "_lightmapSize": 64,
+    "_useLightProbe": true,
+    "_bakeToLightProbe": true,
+    "_reflectionProbeType": 1,
+    "_bakeToReflectionProbe": true,
+    "_probeCubemap": null
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Cube-001",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 16
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -2.303,
+      "y": 0,
+      "z": -1.76
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "73P0buomJKXZUvmCVmYepE"
+  },
+  {
+    "__type__": "cc.MeshRenderer",
+    "_name": "Cube<ModelComponent>",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 15
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_materials": [
+      {
+        "__uuid__": "e986d574-8f29-4f96-93ad-bd176564f509",
+        "__expectedType__": "cc.Material"
+      }
+    ],
+    "_visFlags": 0,
+    "bakeSettings": {
+      "__id__": 17
+    },
+    "_mesh": {
+      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
+      "__expectedType__": "cc.Mesh"
+    },
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 1,
+    "_shadowBias": 0,
+    "_shadowNormalBias": 0,
+    "_reflectionProbeId": -1,
+    "_enableMorph": true,
+    "_id": "b6N6jSa5JGdLATzW5h7HRj"
+  },
+  {
+    "__type__": "cc.ModelBakeSettings",
+    "texture": null,
+    "uvParam": {
+      "__type__": "cc.Vec4",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0
+    },
+    "_bakeable": false,
+    "_castShadow": false,
+    "_receiveShadow": false,
+    "_recieveShadow": false,
+    "_lightmapSize": 64,
+    "_useLightProbe": true,
+    "_bakeToLightProbe": true,
+    "_reflectionProbeType": 1,
+    "_bakeToReflectionProbe": true,
+    "_probeCubemap": null
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Cube-002",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 19
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 3.351,
+      "y": 0,
+      "z": -1.76
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "4a17vVKzpE9oIOcAbxgqH7"
+  },
+  {
+    "__type__": "cc.MeshRenderer",
+    "_name": "Cube<ModelComponent>",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 18
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_materials": [
+      {
+        "__uuid__": "7637eca6-45ca-4f99-aa47-255e1d0d3c9d",
+        "__expectedType__": "cc.Material"
+      }
+    ],
+    "_visFlags": 0,
+    "bakeSettings": {
+      "__id__": 20
+    },
+    "_mesh": {
+      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
+      "__expectedType__": "cc.Mesh"
+    },
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 1,
+    "_shadowBias": 0,
+    "_shadowNormalBias": 0,
+    "_reflectionProbeId": -1,
+    "_enableMorph": true,
+    "_id": "66j7ppftZKGYrRueixIIyr"
+  },
+  {
+    "__type__": "cc.ModelBakeSettings",
+    "texture": null,
+    "uvParam": {
+      "__type__": "cc.Vec4",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0
+    },
+    "_bakeable": false,
+    "_castShadow": false,
+    "_receiveShadow": false,
+    "_recieveShadow": false,
+    "_lightmapSize": 64,
+    "_useLightProbe": true,
+    "_bakeToLightProbe": true,
+    "_reflectionProbeType": 1,
+    "_bakeToReflectionProbe": true,
+    "_probeCubemap": null
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Reflection Probe",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 22
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "e6nCae/mBNF7jvnhDrgvrR"
+  },
+  {
+    "__type__": "cc.ReflectionProbe",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_resolution": 768,
+    "_clearFlag": 14,
+    "_backgroundColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_visibility": 1083179008,
+    "_probeType": 0,
+    "_cubemap": {
+      "__uuid__": "c4277108-9f28-4a7b-9ffc-8c2835312a32@b47c0",
+      "__expectedType__": "cc.TextureCube"
+    },
+    "_size": {
+      "__type__": "cc.Vec3",
+      "x": 5.083619391567625,
+      "y": 2.99175837072319,
+      "z": 2.997245796985758
+    },
+    "_sourceCamera": null,
+    "_probeId": 0,
+    "_fastBake": false,
+    "_id": "36jDGgAs5NEqzV6K0a+QVd"
+  },
+  {
+    "__type__": "cc.SceneGlobals",
+    "ambient": {
+      "__id__": 24
+    },
+    "shadows": {
+      "__id__": 25
+    },
+    "_skybox": {
+      "__id__": 26
+    },
+    "fog": {
+      "__id__": 27
+    },
+    "octree": {
+      "__id__": 28
+    },
+    "lightProbeInfo": {
+      "__id__": 29
+    },
+    "bakedWithStationaryMainLight": false,
+    "bakedWithHighpLightmap": false
+  },
+  {
+    "__type__": "cc.AmbientInfo",
+    "_skyColorHDR": {
+      "__type__": "cc.Vec4",
+      "x": 0.2,
+      "y": 0.5,
+      "z": 0.8,
+      "w": 0.520833125
+    },
+    "_skyColor": {
+      "__type__": "cc.Vec4",
+      "x": 0.2,
+      "y": 0.5,
+      "z": 0.8,
+      "w": 0.520833125
+    },
+    "_skyIllumHDR": 20000,
+    "_skyIllum": 20000,
+    "_groundAlbedoHDR": {
+      "__type__": "cc.Vec4",
+      "x": 0.2,
+      "y": 0.2,
+      "z": 0.2,
+      "w": 1
+    },
+    "_groundAlbedo": {
+      "__type__": "cc.Vec4",
+      "x": 0.2,
+      "y": 0.2,
+      "z": 0.2,
+      "w": 1
+    },
+    "_skyColorLDR": {
+      "__type__": "cc.Vec4",
+      "x": 0.452588,
+      "y": 0.607642,
+      "z": 0.755699,
+      "w": 0
+    },
+    "_skyIllumLDR": 0.8,
+    "_groundAlbedoLDR": {
+      "__type__": "cc.Vec4",
+      "x": 0.618555,
+      "y": 0.577848,
+      "z": 0.544564,
+      "w": 0
+    }
+  },
+  {
+    "__type__": "cc.ShadowsInfo",
+    "_enabled": false,
+    "_type": 0,
+    "_normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "_distance": 0,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 76,
+      "g": 76,
+      "b": 76,
+      "a": 255
+    },
+    "_maxReceived": 4,
+    "_size": {
+      "__type__": "cc.Vec2",
+      "x": 1024,
+      "y": 1024
+    }
+  },
+  {
+    "__type__": "cc.SkyboxInfo",
+    "_envLightingType": 0,
+    "_envmapHDR": {
+      "__uuid__": "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+      "__expectedType__": "cc.TextureCube"
+    },
+    "_envmap": {
+      "__uuid__": "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+      "__expectedType__": "cc.TextureCube"
+    },
+    "_envmapLDR": {
+      "__uuid__": "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0",
+      "__expectedType__": "cc.TextureCube"
+    },
+    "_diffuseMapHDR": null,
+    "_diffuseMapLDR": null,
+    "_enabled": true,
+    "_useHDR": true,
+    "_editableMaterial": null,
+    "_reflectionHDR": null,
+    "_reflectionLDR": null,
+    "_rotationAngle": 0
+  },
+  {
+    "__type__": "cc.FogInfo",
+    "_type": 0,
+    "_fogColor": {
+      "__type__": "cc.Color",
+      "r": 200,
+      "g": 200,
+      "b": 200,
+      "a": 255
+    },
+    "_enabled": false,
+    "_fogDensity": 0.3,
+    "_fogStart": 0.5,
+    "_fogEnd": 300,
+    "_fogAtten": 5,
+    "_fogTop": 1.5,
+    "_fogRange": 1.2,
+    "_accurate": false
+  },
+  {
+    "__type__": "cc.OctreeInfo",
+    "_enabled": false,
+    "_minPos": {
+      "__type__": "cc.Vec3",
+      "x": -1024,
+      "y": -1024,
+      "z": -1024
+    },
+    "_maxPos": {
+      "__type__": "cc.Vec3",
+      "x": 1024,
+      "y": 1024,
+      "z": 1024
+    },
+    "_depth": 8
+  },
+  {
+    "__type__": "cc.LightProbeInfo",
+    "_giScale": 1,
+    "_giSamples": 1024,
+    "_bounces": 2,
+    "_reduceRinging": 0,
+    "_showProbe": true,
+    "_showWireframe": true,
+    "_showConvex": true,
+    "_data": {
+      "__id__": 30
+    }
+  },
+  {
+    "__type__": "cc.LightProbesData",
+    "_probes": [
+      {
+        "__id__": 31
+      },
+      {
+        "__id__": 32
+      },
+      {
+        "__id__": 33
+      },
+      {
+        "__id__": 34
+      },
+      {
+        "__id__": 35
+      },
+      {
+        "__id__": 36
+      },
+      {
+        "__id__": 37
+      },
+      {
+        "__id__": 38
+      },
+      {
+        "__id__": 39
+      },
+      {
+        "__id__": 40
+      },
+      {
+        "__id__": 41
+      },
+      {
+        "__id__": 42
+      },
+      {
+        "__id__": 43
+      },
+      {
+        "__id__": 44
+      },
+      {
+        "__id__": 45
+      },
+      {
+        "__id__": 46
+      },
+      {
+        "__id__": 47
+      },
+      {
+        "__id__": 48
+      },
+      {
+        "__id__": 49
+      },
+      {
+        "__id__": 50
+      },
+      {
+        "__id__": 51
+      },
+      {
+        "__id__": 52
+      },
+      {
+        "__id__": 53
+      },
+      {
+        "__id__": 54
+      },
+      {
+        "__id__": 55
+      },
+      {
+        "__id__": 56
+      },
+      {
+        "__id__": 57
+      }
+    ],
+    "_tetrahedrons": [
+      {
+        "__id__": 58
+      },
+      {
+        "__id__": 60
+      },
+      {
+        "__id__": 62
+      },
+      {
+        "__id__": 64
+      },
+      {
+        "__id__": 66
+      },
+      {
+        "__id__": 68
+      },
+      {
+        "__id__": 70
+      },
+      {
+        "__id__": 72
+      },
+      {
+        "__id__": 74
+      },
+      {
+        "__id__": 76
+      },
+      {
+        "__id__": 78
+      },
+      {
+        "__id__": 80
+      },
+      {
+        "__id__": 82
+      },
+      {
+        "__id__": 84
+      },
+      {
+        "__id__": 86
+      },
+      {
+        "__id__": 88
+      },
+      {
+        "__id__": 90
+      },
+      {
+        "__id__": 92
+      },
+      {
+        "__id__": 94
+      },
+      {
+        "__id__": 96
+      },
+      {
+        "__id__": 98
+      },
+      {
+        "__id__": 100
+      },
+      {
+        "__id__": 102
+      },
+      {
+        "__id__": 104
+      },
+      {
+        "__id__": 106
+      },
+      {
+        "__id__": 108
+      },
+      {
+        "__id__": 110
+      },
+      {
+        "__id__": 112
+      },
+      {
+        "__id__": 114
+      },
+      {
+        "__id__": 116
+      },
+      {
+        "__id__": 118
+      },
+      {
+        "__id__": 120
+      },
+      {
+        "__id__": 122
+      },
+      {
+        "__id__": 124
+      },
+      {
+        "__id__": 126
+      },
+      {
+        "__id__": 128
+      },
+      {
+        "__id__": 130
+      },
+      {
+        "__id__": 132
+      },
+      {
+        "__id__": 134
+      },
+      {
+        "__id__": 136
+      },
+      {
+        "__id__": 138
+      },
+      {
+        "__id__": 140
+      },
+      {
+        "__id__": 142
+      },
+      {
+        "__id__": 144
+      },
+      {
+        "__id__": 146
+      },
+      {
+        "__id__": 148
+      },
+      {
+        "__id__": 150
+      },
+      {
+        "__id__": 152
+      },
+      {
+        "__id__": 154
+      },
+      {
+        "__id__": 156
+      },
+      {
+        "__id__": 158
+      },
+      {
+        "__id__": 160
+      },
+      {
+        "__id__": 162
+      },
+      {
+        "__id__": 164
+      },
+      {
+        "__id__": 166
+      },
+      {
+        "__id__": 168
+      },
+      {
+        "__id__": 170
+      },
+      {
+        "__id__": 172
+      },
+      {
+        "__id__": 174
+      },
+      {
+        "__id__": 176
+      },
+      {
+        "__id__": 178
+      },
+      {
+        "__id__": 180
+      },
+      {
+        "__id__": 182
+      },
+      {
+        "__id__": 184
+      },
+      {
+        "__id__": 186
+      },
+      {
+        "__id__": 188
+      },
+      {
+        "__id__": 190
+      },
+      {
+        "__id__": 192
+      },
+      {
+        "__id__": 194
+      },
+      {
+        "__id__": 196
+      },
+      {
+        "__id__": 198
+      },
+      {
+        "__id__": 200
+      },
+      {
+        "__id__": 202
+      },
+      {
+        "__id__": 204
+      },
+      {
+        "__id__": 206
+      },
+      {
+        "__id__": 208
+      },
+      {
+        "__id__": 210
+      },
+      {
+        "__id__": 212
+      },
+      {
+        "__id__": 214
+      },
+      {
+        "__id__": 216
+      },
+      {
+        "__id__": 218
+      },
+      {
+        "__id__": 220
+      },
+      {
+        "__id__": 222
+      },
+      {
+        "__id__": 224
+      },
+      {
+        "__id__": 226
+      },
+      {
+        "__id__": 228
+      },
+      {
+        "__id__": 230
+      },
+      {
+        "__id__": 232
+      },
+      {
+        "__id__": 234
+      },
+      {
+        "__id__": 236
+      },
+      {
+        "__id__": 238
+      },
+      {
+        "__id__": 240
+      },
+      {
+        "__id__": 242
+      },
+      {
+        "__id__": 244
+      },
+      {
+        "__id__": 246
+      },
+      {
+        "__id__": 248
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": -5,
+      "z": -5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": -0.5773502691896258,
+      "y": -0.5773502691896258,
+      "z": -0.5773502691896258
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5000044107437134,
+        "y": 1.4705898761749268,
+        "z": 1.411767840385437
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7984525561332703,
+        "y": 0.7827965617179871,
+        "z": 0.7514842748641968
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932337403297424,
+        "y": 0.14639557898044586,
+        "z": 0.14053964614868164
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00542633980512619,
+        "y": 0.0053200689144432545,
+        "z": 0.005107146222144365
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05586707592010498,
+        "y": -0.05477164313197136,
+        "z": -0.05258077755570412
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": -5,
+      "z": 0
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": -0.7071067811865475,
+      "y": -0.7071067811865475,
+      "z": 0
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5000044107437134,
+        "y": 1.4705898761749268,
+        "z": 1.411767840385437
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7984525561332703,
+        "y": 0.7827965617179871,
+        "z": 0.7514842748641968
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932337403297424,
+        "y": 0.14639557898044586,
+        "z": 0.14053964614868164
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00542633980512619,
+        "y": 0.0053200689144432545,
+        "z": 0.005107146222144365
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05586707592010498,
+        "y": -0.05477164313197136,
+        "z": -0.05258077755570412
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": -5,
+      "z": 5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": -0.6666666666666667,
+      "y": -0.6666666666666667,
+      "z": 0.33333333333333337
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5000044107437134,
+        "y": 1.4705898761749268,
+        "z": 1.411767840385437
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7984525561332703,
+        "y": 0.7827965617179871,
+        "z": 0.7514842748641968
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932337403297424,
+        "y": 0.14639557898044586,
+        "z": 0.14053964614868164
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00542633980512619,
+        "y": 0.0053200689144432545,
+        "z": 0.005107146222144365
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05586707592010498,
+        "y": -0.05477164313197136,
+        "z": -0.05258077755570412
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": 0,
+      "z": -5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": -0.7071067811865475,
+      "y": 0,
+      "z": -0.7071067811865475
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.6624248027801514,
+        "y": 1.6298249959945679,
+        "z": 1.564634084701538
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7029728293418884,
+        "y": 0.6891892552375793,
+        "z": 0.6616207361221313
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7775598764419556,
+        "y": 0.7623142600059509,
+        "z": 0.7318215370178223
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.5706179738044739,
+        "y": 0.5594291687011719,
+        "z": 0.5370518565177917
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.06926985085010529,
+        "y": 0.06791161745786667,
+        "z": 0.06519516557455063
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.11529247462749481,
+        "y": 0.11303196102380753,
+        "z": 0.10851075500249863
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.004199730232357979,
+        "y": 0.004117436241358519,
+        "z": 0.003952775150537491
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.12234118580818176,
+        "y": 0.11994227766990662,
+        "z": 0.11514460295438766
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.056014105677604675,
+        "y": -0.05491579696536064,
+        "z": -0.05271914601325989
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": 0,
+      "z": 0
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.8145332336425781,
+        "y": 1.7789490222930908,
+        "z": 1.7077891826629639
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.608248770236969,
+        "y": 0.5963225960731506,
+        "z": 0.5724691152572632
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.685089647769928,
+        "y": 0.6716564893722534,
+        "z": 0.6447907090187073
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6589964628219604,
+        "y": 0.6460745334625244,
+        "z": 0.6202311515808105
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.03548713028430939,
+        "y": 0.03479132428765297,
+        "z": 0.033399663865566254
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932331442832947,
+        "y": 0.14639562368392944,
+        "z": 0.14053981006145477
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.0001484888489358127,
+        "y": -0.00014551874483004212,
+        "z": -0.0001397283631376922
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.0890083834528923,
+        "y": 0.08726304024457932,
+        "z": 0.08377249538898468
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.057646334171295166,
+        "y": -0.05651605501770973,
+        "z": -0.0542554073035717
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": 0,
+      "z": 5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": -0.7071067811865475,
+      "y": 0,
+      "z": 0.7071067811865475
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.6624252796173096,
+        "y": 1.629823923110962,
+        "z": 1.5646289587020874
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7029725313186646,
+        "y": 0.6891886591911316,
+        "z": 0.6616211533546448
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.5926191806793213,
+        "y": 0.5809981226921082,
+        "z": 0.5577598214149475
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.5706183314323425,
+        "y": 0.5594292879104614,
+        "z": 0.537051796913147
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.06926983594894409,
+        "y": 0.06791161000728607,
+        "z": 0.06519513577222824
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.18335416913032532,
+        "y": 0.17975923418998718,
+        "z": 0.1725686937570572
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.004199784714728594,
+        "y": 0.004117550328373909,
+        "z": 0.00395271135494113
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.05567562207579613,
+        "y": 0.054583773016929626,
+        "z": 0.05240048095583916
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05601408705115318,
+        "y": -0.05491579324007034,
+        "z": -0.05271916836500168
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": 5,
+      "z": -5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": -0.6666666666666667,
+      "y": 0.33333333333333337,
+      "z": -0.6666666666666667
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5863709449768066,
+        "y": 1.5552623271942139,
+        "z": 1.4930541515350342
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7249313592910767,
+        "y": 0.710716962814331,
+        "z": 0.6822876334190369
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7269986867904663,
+        "y": 0.7127437591552734,
+        "z": 0.6842343807220459
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.514405369758606,
+        "y": 0.50431889295578,
+        "z": 0.4841458797454834
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08089974522590637,
+        "y": 0.07931353896856308,
+        "z": 0.07614097744226456
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.12544600665569305,
+        "y": 0.12298654019832611,
+        "z": 0.11806703358888626
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.001627342775464058,
+        "y": -0.0015953597612679005,
+        "z": -0.0015315632335841656
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10113661736249924,
+        "y": 0.09915350377559662,
+        "z": 0.09518735855817795
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.07132889330387115,
+        "y": -0.06993028521537781,
+        "z": -0.06713306903839111
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": 5,
+      "z": 0
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": -0.7071067811865475,
+      "y": 0.7071067811865475,
+      "z": 0
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.6263316869735718,
+        "y": 1.5944387912750244,
+        "z": 1.530662178993225
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6815337538719177,
+        "y": 0.6681699156761169,
+        "z": 0.6414426565170288
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850895881652832,
+        "y": 0.6716558933258057,
+        "z": 0.6447907090187073
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.534393310546875,
+        "y": 0.5239148736000061,
+        "z": 0.502957820892334
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.06682348251342773,
+        "y": 0.06551322340965271,
+        "z": 0.06289271265268326
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932334423065186,
+        "y": 0.14639562368392944,
+        "z": 0.14053970575332642
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.016116347163915634,
+        "y": -0.015800198540091515,
+        "z": -0.015168296173214912
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842815637589,
+        "y": 0.08726304024457932,
+        "z": 0.08377251774072647
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.08304430544376373,
+        "y": -0.08141601830720901,
+        "z": -0.07815934717655182
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -5,
+      "y": 5,
+      "z": 5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": -0.33333333333333337,
+      "y": 0.6666666666666667,
+      "z": 0.6666666666666667
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5863711833953857,
+        "y": 1.5552618503570557,
+        "z": 1.4930508136749268
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7249312996864319,
+        "y": 0.7107167840003967,
+        "z": 0.6822877526283264
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6431803107261658,
+        "y": 0.6305680871009827,
+        "z": 0.6053469777107239
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.5144054889678955,
+        "y": 0.5043187737464905,
+        "z": 0.4841456115245819
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08089976012706757,
+        "y": 0.07931350916624069,
+        "z": 0.07614095509052277
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.1732005923986435,
+        "y": 0.1698046773672104,
+        "z": 0.16301238536834717
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.001627286896109581,
+        "y": -0.0015952636022120714,
+        "z": -0.0015315648633986712
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.07688019424676895,
+        "y": 0.0753725990653038,
+        "z": 0.07235771417617798
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.07132890075445175,
+        "y": -0.0699302926659584,
+        "z": -0.06713307648897171
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -5,
+      "z": -5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -0.7071067811865475,
+      "z": -0.7071067811865475
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5000044107437134,
+        "y": 1.4705898761749268,
+        "z": 1.411767840385437
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7984525561332703,
+        "y": 0.7827965617179871,
+        "z": 0.7514842748641968
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932337403297424,
+        "y": 0.14639557898044586,
+        "z": 0.14053964614868164
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00542633980512619,
+        "y": 0.0053200689144432545,
+        "z": 0.005107146222144365
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05586707592010498,
+        "y": -0.05477164313197136,
+        "z": -0.05258077755570412
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -5,
+      "z": 0
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5000044107437134,
+        "y": 1.4705898761749268,
+        "z": 1.411767840385437
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7984525561332703,
+        "y": 0.7827965617179871,
+        "z": 0.7514842748641968
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932337403297424,
+        "y": 0.14639557898044586,
+        "z": 0.14053964614868164
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00542633980512619,
+        "y": 0.0053200689144432545,
+        "z": 0.005107146222144365
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05586707592010498,
+        "y": -0.05477164313197136,
+        "z": -0.05258077755570412
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -5,
+      "z": 5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -0.7071067811865475,
+      "z": 0.7071067811865475
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5000044107437134,
+        "y": 1.4705898761749268,
+        "z": 1.411767840385437
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7984525561332703,
+        "y": 0.7827965617179871,
+        "z": 0.7514842748641968
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932337403297424,
+        "y": 0.14639557898044586,
+        "z": 0.14053964614868164
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00542633980512619,
+        "y": 0.0053200689144432545,
+        "z": 0.005107146222144365
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05586707592010498,
+        "y": -0.05477164313197136,
+        "z": -0.05258077755570412
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": -5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.7887519598007202,
+        "y": 1.7536735534667969,
+        "z": 1.6835286617279053
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6109703183174133,
+        "y": 0.5989906191825867,
+        "z": 0.5750302672386169
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.8517962098121643,
+        "y": 0.8350961804389954,
+        "z": 0.8016921877861023
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.47603410482406616,
+        "y": 0.4666996896266937,
+        "z": 0.4480316638946533
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337791591882706,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08241985738277435,
+        "y": 0.080803781747818,
+        "z": 0.07757169008255005
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.005347727332264185,
+        "y": 0.005242637358605862,
+        "z": 0.0050330511294305325
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726305514574051,
+        "z": 0.08377256989479065
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.06893084943294525,
+        "y": -0.06757926195859909,
+        "z": -0.06487607210874557
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 2.0723443031311035,
+        "y": 2.031700849533081,
+        "z": 1.9504263401031494
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.4239163100719452,
+        "y": 0.41560429334640503,
+        "z": 0.3989800810813904
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850902438163757,
+        "y": 0.6716572642326355,
+        "z": 0.6447882056236267
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.47603410482406616,
+        "y": 0.4666996896266937,
+        "z": 0.44803178310394287
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337793081998825,
+        "y": 0.10135093331336975,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932341873645782,
+        "y": 0.14639553427696228,
+        "z": 0.14053975045681
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.0026525468565523624,
+        "y": 0.0026003026869148016,
+        "z": 0.00249647768214345
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842815637589,
+        "y": 0.08726305514574051,
+        "z": 0.08377254009246826
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.0821223109960556,
+        "y": -0.08051207661628723,
+        "z": -0.0772915929555893
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.7887531518936157,
+        "y": 1.7536722421646118,
+        "z": 1.6835194826126099
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6109698414802551,
+        "y": 0.5989900231361389,
+        "z": 0.575030505657196
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.5183828473091125,
+        "y": 0.5082163214683533,
+        "z": 0.48789018392562866
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.4760340750217438,
+        "y": 0.4666996896266937,
+        "z": 0.4480317234992981
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337791591882706,
+        "y": 0.10135093331336975,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.21622687578201294,
+        "y": 0.21198734641075134,
+        "z": 0.2035077065229416
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.005347520112991333,
+        "y": 0.005242802668362856,
+        "z": 0.005033029709011316
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842815637589,
+        "y": 0.08726304024457932,
+        "z": 0.08377253264188766
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.06893082708120346,
+        "y": -0.06757926195859909,
+        "z": -0.06487610936164856
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 5,
+      "z": -5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0.7071067811865475,
+      "z": -0.7071067811865475
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.6418002843856812,
+        "y": 1.6096042394638062,
+        "z": 1.5452228784561157
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6717234253883362,
+        "y": 0.6585522890090942,
+        "z": 0.6322094798088074
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7555115222930908,
+        "y": 0.7406980395317078,
+        "z": 0.7110700607299805
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.4760340750217438,
+        "y": 0.4666996896266937,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.0972968339920044
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10757555812597275,
+        "y": 0.10546630620956421,
+        "z": 0.10124767571687698
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.004889381118118763,
+        "y": -0.004793418105691671,
+        "z": -0.004601647611707449
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.08916579931974411,
+        "y": -0.08741740137338638,
+        "z": -0.08392071723937988
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 5,
+      "z": 0
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.7114096879959106,
+        "y": 1.677846908569336,
+        "z": 1.6107330322265625
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.5935260653495789,
+        "y": 0.5818879008293152,
+        "z": 0.5586118102073669
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850895285606384,
+        "y": 0.6716558933258057,
+        "z": 0.6447906494140625
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.4760340750217438,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.0972968339920044
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932329952716827,
+        "y": 0.14639556407928467,
+        "z": 0.14053967595100403
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.029000597074627876,
+        "y": -0.02843177504837513,
+        "z": -0.027294550091028214
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.0890084058046341,
+        "y": 0.08726301789283752,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.11379411816596985,
+        "y": -0.11156284064054489,
+        "z": -0.10710033774375916
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 5,
+      "z": 5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0.7071067811865475,
+      "z": 0.7071067811865475
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.6418006420135498,
+        "y": 1.6096035242080688,
+        "z": 1.5452176332473755
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6717232465744019,
+        "y": 0.6585519313812256,
+        "z": 0.6322095990180969
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6146672964096069,
+        "y": 0.6026137471199036,
+        "z": 0.5785112977027893
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803163409233093
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.19107113778591156,
+        "y": 0.18732482194900513,
+        "z": 0.17983174324035645
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.00488932803273201,
+        "y": -0.004793348256498575,
+        "z": -0.004601743537932634
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726301789283752,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.08916575461626053,
+        "y": -0.08741741627454758,
+        "z": -0.0839206874370575
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": -5,
+      "z": -5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0.33333333333333337,
+      "y": -0.6666666666666667,
+      "z": -0.6666666666666667
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5000044107437134,
+        "y": 1.4705898761749268,
+        "z": 1.411767840385437
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7984525561332703,
+        "y": 0.7827965617179871,
+        "z": 0.7514842748641968
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932337403297424,
+        "y": 0.14639557898044586,
+        "z": 0.14053964614868164
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00542633980512619,
+        "y": 0.0053200689144432545,
+        "z": 0.005107146222144365
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05586707592010498,
+        "y": -0.05477164313197136,
+        "z": -0.05258077755570412
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": -5,
+      "z": 0
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0.7071067811865475,
+      "y": -0.7071067811865475,
+      "z": 0
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5000044107437134,
+        "y": 1.4705898761749268,
+        "z": 1.411767840385437
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7984525561332703,
+        "y": 0.7827965617179871,
+        "z": 0.7514842748641968
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932337403297424,
+        "y": 0.14639557898044586,
+        "z": 0.14053964614868164
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00542633980512619,
+        "y": 0.0053200689144432545,
+        "z": 0.005107146222144365
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05586707592010498,
+        "y": -0.05477164313197136,
+        "z": -0.05258077755570412
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": -5,
+      "z": 5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0.6666666666666667,
+      "y": -0.33333333333333337,
+      "z": 0.6666666666666667
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5000044107437134,
+        "y": 1.4705898761749268,
+        "z": 1.411767840385437
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7984525561332703,
+        "y": 0.7827965617179871,
+        "z": 0.7514842748641968
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.476034015417099,
+        "y": 0.46669960021972656,
+        "z": 0.44803157448768616
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10337789356708527,
+        "y": 0.10135089606046677,
+        "z": 0.09729684889316559
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932337403297424,
+        "y": 0.14639557898044586,
+        "z": 0.14053964614868164
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00542633980512619,
+        "y": 0.0053200689144432545,
+        "z": 0.005107146222144365
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05586707592010498,
+        "y": -0.05477164313197136,
+        "z": -0.05258077755570412
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": 0,
+      "z": -5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0.7071067811865475,
+      "y": 0,
+      "z": -0.7071067811865475
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.6624252796173096,
+        "y": 1.6298245191574097,
+        "z": 1.5646345615386963
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7029727101325989,
+        "y": 0.6891890168190002,
+        "z": 0.6616207361221313
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7775596380233765,
+        "y": 0.7623146176338196,
+        "z": 0.7318210005760193
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.3814496695995331,
+        "y": 0.3739703297615051,
+        "z": 0.35901135206222534
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.13748601078987122,
+        "y": 0.13479027152061462,
+        "z": 0.12939852476119995
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.11529241502285004,
+        "y": 0.11303196102380753,
+        "z": 0.10851065069437027
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.00419981312006712,
+        "y": 0.004117509815841913,
+        "z": 0.0039528352208435535
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.055675555020570755,
+        "y": 0.054583821445703506,
+        "z": 0.05240047350525856
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05601412430405617,
+        "y": -0.05491579696536064,
+        "z": -0.05271916836500168
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": 0,
+      "z": 0
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.8145339488983154,
+        "y": 1.7789483070373535,
+        "z": 1.7077882289886475
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6082486510276794,
+        "y": 0.5963223576545715,
+        "z": 0.572469174861908
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716564893722534,
+        "z": 0.6447904109954834
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.2930715084075928,
+        "y": 0.28732502460479736,
+        "z": 0.27583178877830505
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.17126873135566711,
+        "y": 0.1679106205701828,
+        "z": 0.16119401156902313
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932329952716827,
+        "y": 0.14639559388160706,
+        "z": 0.1405397355556488
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.0001484543754486367,
+        "y": -0.00014544407895300537,
+        "z": -0.00013966401456855237
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.0890083834528923,
+        "y": 0.08726303279399872,
+        "z": 0.08377254754304886
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05764640122652054,
+        "y": -0.05651606246829033,
+        "z": -0.054255418479442596
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": 0,
+      "z": 5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0.7071067811865475,
+      "y": 0,
+      "z": 0.7071067811865475
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.6624255180358887,
+        "y": 1.6298236846923828,
+        "z": 1.5646283626556396
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7029724717140198,
+        "y": 0.6891887187957764,
+        "z": 0.6616211533546448
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.5926194190979004,
+        "y": 0.5809980630874634,
+        "z": 0.5577600002288818
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.381449818611145,
+        "y": 0.37397029995918274,
+        "z": 0.3590112626552582
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.13748595118522644,
+        "y": 0.13479022681713104,
+        "z": 0.12939855456352234
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.1833541989326477,
+        "y": 0.17975924909114838,
+        "z": 0.1725686937570572
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.004199789371341467,
+        "y": 0.004117551259696484,
+        "z": 0.003952720668166876
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.12234123051166534,
+        "y": 0.11994227766990662,
+        "z": 0.11514463275671005
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.05601413547992706,
+        "y": -0.05491579696536064,
+        "z": -0.05271916836500168
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": 5,
+      "z": -5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0.6666666666666667,
+      "y": 0.6666666666666667,
+      "z": -0.33333333333333337
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5863711833953857,
+        "y": 1.5552620887756348,
+        "z": 1.4930541515350342
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7249313592910767,
+        "y": 0.710716962814331,
+        "z": 0.6822876334190369
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7269985675811768,
+        "y": 0.7127437591552734,
+        "z": 0.6842342615127563
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.43766263127326965,
+        "y": 0.4290805757045746,
+        "z": 0.41191747784614563
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.12585607171058655,
+        "y": 0.12338832020759583,
+        "z": 0.11845271289348602
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.12544603645801544,
+        "y": 0.12298654019832611,
+        "z": 0.11806700378656387
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.0016273059882223606,
+        "y": -0.0015953322872519493,
+        "z": -0.001531544839963317
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.07688019424676895,
+        "y": 0.07537257671356201,
+        "z": 0.07235772162675858
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.07132890075445175,
+        "y": -0.0699302926659584,
+        "z": -0.06713308393955231
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": 5,
+      "z": 0
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0.7071067811865475,
+      "y": 0.7071067811865475,
+      "z": 0
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.6263318061828613,
+        "y": 1.5944384336471558,
+        "z": 1.530662178993225
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6815338134765625,
+        "y": 0.6681699156761169,
+        "z": 0.6414426565170288
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6850894093513489,
+        "y": 0.6716558933258057,
+        "z": 0.6447905898094177
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.41767460107803345,
+        "y": 0.40948471426963806,
+        "z": 0.3931053578853607
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.13993234932422638,
+        "y": 0.13718858361244202,
+        "z": 0.1317010074853897
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.14932334423065186,
+        "y": 0.14639557898044586,
+        "z": 0.14053967595100403
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.016116347163915634,
+        "y": -0.01580020785331726,
+        "z": -0.015168296173214912
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.08900842070579529,
+        "y": 0.08726304024457932,
+        "z": 0.08377256989479065
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.08304432034492493,
+        "y": -0.08141600340604782,
+        "z": -0.07815935462713242
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Vertex",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "normal": {
+      "__type__": "cc.Vec3",
+      "x": 0.5773502691896258,
+      "y": 0.5773502691896258,
+      "z": 0.5773502691896258
+    },
+    "coefficients": [
+      {
+        "__type__": "cc.Vec3",
+        "x": 1.5863711833953857,
+        "y": 1.5552618503570557,
+        "z": 1.4930508136749268
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.7249312996864319,
+        "y": 0.7107167840003967,
+        "z": 0.6822877526283264
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.6431803107261658,
+        "y": 0.6305680871009827,
+        "z": 0.6053469777107239
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.4376625716686249,
+        "y": 0.4290805757045746,
+        "z": 0.4119175672531128
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.12585599720478058,
+        "y": 0.12338832765817642,
+        "z": 0.11845272779464722
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.1732005923986435,
+        "y": 0.1698046773672104,
+        "z": 0.16301238536834717
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.001627286896109581,
+        "y": -0.0015952636022120714,
+        "z": -0.0015315648633986712
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": 0.10113664716482162,
+        "y": 0.09915346652269363,
+        "z": 0.09518740326166153
+      },
+      {
+        "__type__": "cc.Vec3",
+        "x": -0.07132890820503235,
+        "y": -0.0699302926659584,
+        "z": -0.06713308393955231
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 0,
+    "vertex1": 1,
+    "vertex2": 3,
+    "vertex3": 9,
+    "neighbours": [
+      1,
+      48,
+      49,
+      50
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 59
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 1,
+    "vertex1": 3,
+    "vertex2": 4,
+    "vertex3": 9,
+    "neighbours": [
+      6,
+      2,
+      0,
+      51
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 61
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 1,
+    "vertex1": 4,
+    "vertex2": 9,
+    "vertex3": 10,
+    "neighbours": [
+      9,
+      52,
+      3,
+      1
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 63
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 1,
+    "vertex1": 2,
+    "vertex2": 4,
+    "vertex3": 10,
+    "neighbours": [
+      4,
+      2,
+      53,
+      54
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 65
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 2,
+    "vertex1": 4,
+    "vertex2": 5,
+    "vertex3": 10,
+    "neighbours": [
+      10,
+      5,
+      3,
+      55
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 67
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 2,
+    "vertex1": 5,
+    "vertex2": 10,
+    "vertex3": 11,
+    "neighbours": [
+      13,
+      56,
+      57,
+      4
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 69
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 3,
+    "vertex1": 4,
+    "vertex2": 9,
+    "vertex3": 12,
+    "neighbours": [
+      9,
+      58,
+      7,
+      1
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": 0,
+      "m05": -0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 71
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 3,
+    "vertex1": 4,
+    "vertex2": 6,
+    "vertex3": 12,
+    "neighbours": [
+      8,
+      59,
+      6,
+      60
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 73
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 4,
+    "vertex1": 6,
+    "vertex2": 7,
+    "vertex3": 12,
+    "neighbours": [
+      18,
+      15,
+      7,
+      61
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 75
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 4,
+    "vertex1": 9,
+    "vertex2": 10,
+    "vertex3": 12,
+    "neighbours": [
+      24,
+      14,
+      6,
+      2
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 77
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 4,
+    "vertex1": 5,
+    "vertex2": 10,
+    "vertex3": 13,
+    "neighbours": [
+      13,
+      14,
+      11,
+      4
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": 0,
+      "m05": -0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 79
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 4,
+    "vertex1": 5,
+    "vertex2": 7,
+    "vertex3": 13,
+    "neighbours": [
+      12,
+      15,
+      10,
+      62
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 81
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 5,
+    "vertex1": 7,
+    "vertex2": 8,
+    "vertex3": 13,
+    "neighbours": [
+      21,
+      17,
+      11,
+      63
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 83
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 5,
+    "vertex1": 10,
+    "vertex2": 11,
+    "vertex3": 13,
+    "neighbours": [
+      27,
+      16,
+      10,
+      5
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 85
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 4,
+    "vertex1": 10,
+    "vertex2": 12,
+    "vertex3": 13,
+    "neighbours": [
+      25,
+      15,
+      10,
+      9
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 87
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 4,
+    "vertex1": 7,
+    "vertex2": 12,
+    "vertex3": 13,
+    "neighbours": [
+      19,
+      14,
+      11,
+      8
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 89
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 5,
+    "vertex1": 11,
+    "vertex2": 13,
+    "vertex3": 14,
+    "neighbours": [
+      28,
+      17,
+      64,
+      13
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 91
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 5,
+    "vertex1": 8,
+    "vertex2": 13,
+    "vertex3": 14,
+    "neighbours": [
+      22,
+      16,
+      65,
+      12
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 93
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 6,
+    "vertex1": 7,
+    "vertex2": 12,
+    "vertex3": 15,
+    "neighbours": [
+      19,
+      66,
+      67,
+      8
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": 0,
+      "m05": -0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 95
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 7,
+    "vertex1": 12,
+    "vertex2": 13,
+    "vertex3": 15,
+    "neighbours": [
+      31,
+      20,
+      18,
+      15
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 97
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 7,
+    "vertex1": 13,
+    "vertex2": 15,
+    "vertex3": 16,
+    "neighbours": [
+      32,
+      68,
+      21,
+      19
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 99
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 7,
+    "vertex1": 8,
+    "vertex2": 13,
+    "vertex3": 16,
+    "neighbours": [
+      22,
+      20,
+      69,
+      12
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": 0,
+      "m05": -0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 101
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 8,
+    "vertex1": 13,
+    "vertex2": 14,
+    "vertex3": 16,
+    "neighbours": [
+      35,
+      23,
+      21,
+      17
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 103
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 8,
+    "vertex1": 14,
+    "vertex2": 16,
+    "vertex3": 17,
+    "neighbours": [
+      36,
+      70,
+      71,
+      22
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 105
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": -2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 9,
+    "vertex1": 10,
+    "vertex2": 12,
+    "vertex3": 18,
+    "neighbours": [
+      25,
+      72,
+      73,
+      9
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 107
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 10,
+    "vertex1": 12,
+    "vertex2": 13,
+    "vertex3": 18,
+    "neighbours": [
+      30,
+      26,
+      24,
+      14
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 109
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 10,
+    "vertex1": 13,
+    "vertex2": 18,
+    "vertex3": 19,
+    "neighbours": [
+      33,
+      74,
+      27,
+      25
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 111
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 10,
+    "vertex1": 11,
+    "vertex2": 13,
+    "vertex3": 19,
+    "neighbours": [
+      28,
+      26,
+      75,
+      13
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 113
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 11,
+    "vertex1": 13,
+    "vertex2": 14,
+    "vertex3": 19,
+    "neighbours": [
+      34,
+      29,
+      27,
+      16
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 115
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 11,
+    "vertex1": 14,
+    "vertex2": 19,
+    "vertex3": 20,
+    "neighbours": [
+      37,
+      76,
+      77,
+      28
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 117
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 12,
+    "vertex1": 13,
+    "vertex2": 18,
+    "vertex3": 21,
+    "neighbours": [
+      33,
+      78,
+      31,
+      25
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": 0,
+      "m05": -0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 119
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 12,
+    "vertex1": 13,
+    "vertex2": 15,
+    "vertex3": 21,
+    "neighbours": [
+      32,
+      79,
+      30,
+      19
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 121
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 13,
+    "vertex1": 15,
+    "vertex2": 16,
+    "vertex3": 21,
+    "neighbours": [
+      42,
+      39,
+      31,
+      20
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 123
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 13,
+    "vertex1": 18,
+    "vertex2": 19,
+    "vertex3": 21,
+    "neighbours": [
+      80,
+      38,
+      30,
+      26
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 125
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 13,
+    "vertex1": 14,
+    "vertex2": 19,
+    "vertex3": 22,
+    "neighbours": [
+      37,
+      38,
+      35,
+      28
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": 0,
+      "m05": -0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 127
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 13,
+    "vertex1": 14,
+    "vertex2": 16,
+    "vertex3": 22,
+    "neighbours": [
+      36,
+      39,
+      34,
+      22
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 129
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 14,
+    "vertex1": 16,
+    "vertex2": 17,
+    "vertex3": 22,
+    "neighbours": [
+      45,
+      41,
+      35,
+      23
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": -0.2,
+      "m04": 0,
+      "m05": 0.2,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 131
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 14,
+    "vertex1": 19,
+    "vertex2": 20,
+    "vertex3": 22,
+    "neighbours": [
+      81,
+      40,
+      34,
+      29
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 133
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 13,
+    "vertex1": 19,
+    "vertex2": 21,
+    "vertex3": 22,
+    "neighbours": [
+      82,
+      39,
+      34,
+      33
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 135
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 13,
+    "vertex1": 16,
+    "vertex2": 21,
+    "vertex3": 22,
+    "neighbours": [
+      43,
+      38,
+      35,
+      32
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 137
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 14,
+    "vertex1": 20,
+    "vertex2": 22,
+    "vertex3": 23,
+    "neighbours": [
+      83,
+      41,
+      84,
+      37
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 139
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": -2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 14,
+    "vertex1": 17,
+    "vertex2": 22,
+    "vertex3": 23,
+    "neighbours": [
+      46,
+      40,
+      85,
+      36
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": -0.2,
+      "m04": 0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 141
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 15,
+    "vertex1": 16,
+    "vertex2": 21,
+    "vertex3": 24,
+    "neighbours": [
+      43,
+      86,
+      87,
+      32
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": 0,
+      "m05": -0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 143
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 16,
+    "vertex1": 21,
+    "vertex2": 22,
+    "vertex3": 24,
+    "neighbours": [
+      88,
+      44,
+      42,
+      39
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 145
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 16,
+    "vertex1": 22,
+    "vertex2": 24,
+    "vertex3": 25,
+    "neighbours": [
+      89,
+      90,
+      45,
+      43
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 147
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": -2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 16,
+    "vertex1": 17,
+    "vertex2": 22,
+    "vertex3": 25,
+    "neighbours": [
+      46,
+      44,
+      91,
+      36
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": 0,
+      "m05": -0.2,
+      "m06": -0.2,
+      "m07": 0.2,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 149
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 17,
+    "vertex1": 22,
+    "vertex2": 23,
+    "vertex3": 25,
+    "neighbours": [
+      92,
+      47,
+      45,
+      41
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": -0.2,
+      "m02": 0.2,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": -0.2,
+      "m08": 0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 151
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 17,
+    "vertex1": 23,
+    "vertex2": 25,
+    "vertex3": 26,
+    "neighbours": [
+      93,
+      94,
+      95,
+      46
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.2,
+      "m01": 0,
+      "m02": 0,
+      "m03": 0,
+      "m04": -0.2,
+      "m05": 0,
+      "m06": 0,
+      "m07": 0,
+      "m08": -0.2
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "sphere": {
+      "__id__": 153
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 2.5,
+      "y": 2.5,
+      "z": 2.5
+    },
+    "radiusSquared": 18.75
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 0,
+    "vertex1": 3,
+    "vertex2": 9,
+    "vertex3": -1,
+    "neighbours": [
+      58,
+      49,
+      50,
+      0
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.3178372451957819,
+      "m01": 2.247448713915888,
+      "m02": 0,
+      "m03": 0.3178372451957819,
+      "m04": 2.247448713915888,
+      "m05": 0,
+      "m06": 1.0963763171773133,
+      "m07": 20.000000000000007,
+      "m08": 86.60254037844388
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 22.802389661575337,
+      "y": 172.4744871391589,
+      "z": 433.01270189221935
+    },
+    "sphere": {
+      "__id__": 155
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 0,
+    "vertex1": 9,
+    "vertex2": 1,
+    "vertex3": -1,
+    "neighbours": [
+      52,
+      50,
+      48,
+      0
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.3178372451957819,
+      "m01": 2.247448713915888,
+      "m02": 0,
+      "m03": 1.0963763171773133,
+      "m04": 20.000000000000004,
+      "m05": 86.60254037844388,
+      "m06": 0.3178372451957819,
+      "m07": 2.247448713915888,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 22.802389661575337,
+      "y": 172.4744871391589,
+      "z": 433.01270189221935
+    },
+    "sphere": {
+      "__id__": 157
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 0,
+    "vertex1": 1,
+    "vertex2": 3,
+    "vertex3": -1,
+    "neighbours": [
+      51,
+      48,
+      49,
+      0
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 1.0963763171773133,
+      "m01": 20.000000000000007,
+      "m02": 86.60254037844388,
+      "m03": 0.3178372451957819,
+      "m04": 2.247448713915888,
+      "m05": 0,
+      "m06": 0.3178372451957819,
+      "m07": 2.247448713915888,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 22.802389661575337,
+      "y": 172.4744871391589,
+      "z": 433.01270189221935
+    },
+    "sphere": {
+      "__id__": 159
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 1,
+    "vertex1": 4,
+    "vertex2": 3,
+    "vertex3": -1,
+    "neighbours": [
+      60,
+      50,
+      54,
+      1
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 1,
+      "m01": 14.142135623730953,
+      "m02": 50.000000000000014,
+      "m03": 0.4142135623730952,
+      "m04": 2.928932188134526,
+      "m05": 0,
+      "m06": 0.4142135623730952,
+      "m07": 2.928932188134526,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865476,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 161
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 1,
+    "vertex1": 9,
+    "vertex2": 10,
+    "vertex3": -1,
+    "neighbours": [
+      73,
+      53,
+      49,
+      2
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.4142135623730952,
+      "m01": 2.928932188134526,
+      "m02": 0,
+      "m03": 1,
+      "m04": 14.142135623730953,
+      "m05": 50.000000000000014,
+      "m06": 0.4142135623730952,
+      "m07": 2.928932188134526,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865477,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 163
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 1,
+    "vertex1": 10,
+    "vertex2": 2,
+    "vertex3": -1,
+    "neighbours": [
+      56,
+      54,
+      52,
+      3
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.4142135623730952,
+      "m01": 6.213203435596427,
+      "m02": 0,
+      "m03": 1,
+      "m04": 22.071067811865476,
+      "m05": 106.06601717798213,
+      "m06": -0.17157287525380932,
+      "m07": -0.8578643762690467,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.07106781186548,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 165
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 1,
+    "vertex1": 2,
+    "vertex2": 4,
+    "vertex3": -1,
+    "neighbours": [
+      55,
+      51,
+      53,
+      3
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 1,
+      "m01": 22.071067811865472,
+      "m02": 106.06601717798213,
+      "m03": 0.41421356237309515,
+      "m04": 6.213203435596427,
+      "m05": 0,
+      "m06": -0.17157287525380932,
+      "m07": -0.8578643762690467,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.071067811865476,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 167
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 2,
+    "vertex1": 5,
+    "vertex2": 4,
+    "vertex3": -1,
+    "neighbours": [
+      62,
+      54,
+      57,
+      4
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 1,
+      "m01": 14.571067811865477,
+      "m02": 53.033008588991066,
+      "m03": 0.29289321881345226,
+      "m04": 0.42893218813452333,
+      "m05": 0,
+      "m06": -0.41421356237309515,
+      "m07": -3.1066017177982137,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 169
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 2,
+    "vertex1": 10,
+    "vertex2": 11,
+    "vertex3": -1,
+    "neighbours": [
+      75,
+      57,
+      53,
+      5
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.29289321881345226,
+      "m01": 0.42893218813452333,
+      "m02": 0,
+      "m03": 1,
+      "m04": 14.571067811865477,
+      "m05": 53.033008588991066,
+      "m06": -0.41421356237309515,
+      "m07": -3.1066017177982137,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 171
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 2,
+    "vertex1": 11,
+    "vertex2": 5,
+    "vertex3": -1,
+    "neighbours": [
+      64,
+      55,
+      56,
+      5
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.5285954792089682,
+      "m01": 3.737734478532141,
+      "m02": 0,
+      "m03": 0.5285954792089682,
+      "m04": 3.737734478532141,
+      "m05": 0,
+      "m06": -0.885618083164127,
+      "m07": -13.333333333333337,
+      "m08": -50.00000000000001
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.142135623730955,
+      "y": 120.71067811865477,
+      "z": 250.00000000000003
+    },
+    "sphere": {
+      "__id__": 173
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 3,
+    "vertex1": 12,
+    "vertex2": 9,
+    "vertex3": -1,
+    "neighbours": [
+      72,
+      48,
+      59,
+      6
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.4142135623730952,
+      "m01": 2.928932188134526,
+      "m02": 0,
+      "m03": 0.4142135623730952,
+      "m04": 2.928932188134526,
+      "m05": 0,
+      "m06": 1,
+      "m07": 14.142135623730953,
+      "m08": 50.000000000000014
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865476,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 175
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 3,
+    "vertex1": 6,
+    "vertex2": 12,
+    "vertex3": -1,
+    "neighbours": [
+      66,
+      58,
+      60,
+      7
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.41421356237309515,
+      "m01": 6.213203435596427,
+      "m02": 0,
+      "m03": -0.17157287525380932,
+      "m04": -0.8578643762690467,
+      "m05": 0,
+      "m06": 1,
+      "m07": 22.071067811865472,
+      "m08": 106.06601717798213
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.071067811865476,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 177
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 3,
+    "vertex1": 4,
+    "vertex2": 6,
+    "vertex3": -1,
+    "neighbours": [
+      61,
+      59,
+      51,
+      7
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 1,
+      "m01": 22.071067811865476,
+      "m02": 106.06601717798213,
+      "m03": -0.17157287525380932,
+      "m04": -0.8578643762690467,
+      "m05": 0,
+      "m06": 0.4142135623730952,
+      "m07": 6.213203435596427,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.07106781186548,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 179
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 4,
+    "vertex1": 7,
+    "vertex2": 6,
+    "vertex3": -1,
+    "neighbours": [
+      67,
+      60,
+      62,
+      8
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 1,
+      "m01": 14.571067811865477,
+      "m02": 53.033008588991066,
+      "m03": -0.4142135623730952,
+      "m04": -3.1066017177982137,
+      "m05": 0,
+      "m06": 0.29289321881345226,
+      "m07": 0.42893218813452333,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 181
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 4,
+    "vertex1": 5,
+    "vertex2": 7,
+    "vertex3": -1,
+    "neighbours": [
+      63,
+      61,
+      55,
+      11
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 1,
+      "m01": 14.142135623730953,
+      "m02": 50.000000000000014,
+      "m03": -0.4142135623730952,
+      "m04": -2.928932188134526,
+      "m05": 0,
+      "m06": -0.4142135623730952,
+      "m07": -2.928932188134526,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865476,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 183
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 5,
+    "vertex1": 8,
+    "vertex2": 7,
+    "vertex3": -1,
+    "neighbours": [
+      69,
+      62,
+      65,
+      12
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.885618083164127,
+      "m01": 13.333333333333337,
+      "m02": 50.00000000000001,
+      "m03": -0.5285954792089682,
+      "m04": -3.737734478532141,
+      "m05": 0,
+      "m06": -0.5285954792089682,
+      "m07": -3.737734478532141,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.142135623730955,
+      "y": 120.71067811865477,
+      "z": 250.00000000000003
+    },
+    "sphere": {
+      "__id__": 185
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 5,
+    "vertex1": 11,
+    "vertex2": 14,
+    "vertex3": -1,
+    "neighbours": [
+      77,
+      65,
+      57,
+      16
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.4142135623730952,
+      "m01": 2.928932188134526,
+      "m02": 0,
+      "m03": 0.4142135623730952,
+      "m04": 2.928932188134526,
+      "m05": 0,
+      "m06": -1,
+      "m07": -14.142135623730953,
+      "m08": -50.000000000000014
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865477,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 187
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 5,
+    "vertex1": 14,
+    "vertex2": 8,
+    "vertex3": -1,
+    "neighbours": [
+      71,
+      63,
+      64,
+      17
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.4142135623730952,
+      "m01": 3.1066017177982137,
+      "m02": 0,
+      "m03": -0.29289321881345226,
+      "m04": -0.42893218813452333,
+      "m05": 0,
+      "m06": -1,
+      "m07": -14.571067811865477,
+      "m08": -53.033008588991066
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 189
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 6,
+    "vertex1": 15,
+    "vertex2": 12,
+    "vertex3": -1,
+    "neighbours": [
+      79,
+      59,
+      67,
+      18
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.29289321881345226,
+      "m01": 0.42893218813452333,
+      "m02": 0,
+      "m03": -0.41421356237309515,
+      "m04": -3.1066017177982137,
+      "m05": 0,
+      "m06": 1,
+      "m07": 14.571067811865477,
+      "m08": 53.033008588991066
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 191
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 6,
+    "vertex1": 7,
+    "vertex2": 15,
+    "vertex3": -1,
+    "neighbours": [
+      68,
+      66,
+      61,
+      18
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.5285954792089682,
+      "m01": 3.737734478532141,
+      "m02": 0,
+      "m03": -0.885618083164127,
+      "m04": -13.333333333333337,
+      "m05": -50.00000000000001,
+      "m06": 0.5285954792089682,
+      "m07": 3.737734478532141,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.142135623730955,
+      "y": 120.71067811865477,
+      "z": 250.00000000000003
+    },
+    "sphere": {
+      "__id__": 193
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 7,
+    "vertex1": 16,
+    "vertex2": 15,
+    "vertex3": -1,
+    "neighbours": [
+      87,
+      67,
+      69,
+      20
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.4142135623730952,
+      "m01": 2.928932188134526,
+      "m02": 0,
+      "m03": -1,
+      "m04": -14.142135623730953,
+      "m05": -50.000000000000014,
+      "m06": 0.4142135623730952,
+      "m07": 2.928932188134526,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865476,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 195
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 7,
+    "vertex1": 8,
+    "vertex2": 16,
+    "vertex3": -1,
+    "neighbours": [
+      70,
+      68,
+      63,
+      21
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.41421356237309515,
+      "m01": 3.1066017177982137,
+      "m02": 0,
+      "m03": -1,
+      "m04": -14.571067811865477,
+      "m05": -53.033008588991066,
+      "m06": -0.29289321881345226,
+      "m07": -0.42893218813452333,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 197
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 8,
+    "vertex1": 17,
+    "vertex2": 16,
+    "vertex3": -1,
+    "neighbours": [
+      91,
+      69,
+      71,
+      23
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.17157287525380932,
+      "m01": 0.8578643762690467,
+      "m02": 0,
+      "m03": -1,
+      "m04": -22.071067811865472,
+      "m05": -106.06601717798213,
+      "m06": -0.41421356237309515,
+      "m07": -6.213203435596427,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.071067811865476,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 199
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 8,
+    "vertex1": 14,
+    "vertex2": 17,
+    "vertex3": -1,
+    "neighbours": [
+      85,
+      70,
+      65,
+      23
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": 0.17157287525380932,
+      "m01": 0.8578643762690467,
+      "m02": 0,
+      "m03": -0.41421356237309515,
+      "m04": -6.213203435596427,
+      "m05": 0,
+      "m06": -1,
+      "m07": -22.071067811865472,
+      "m08": -106.06601717798213
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.07106781186548,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 201
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 9,
+    "vertex1": 12,
+    "vertex2": 18,
+    "vertex3": -1,
+    "neighbours": [
+      78,
+      73,
+      58,
+      24
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.17157287525380932,
+      "m01": -0.8578643762690467,
+      "m02": 0,
+      "m03": 0.4142135623730952,
+      "m04": 6.213203435596427,
+      "m05": 0,
+      "m06": 1,
+      "m07": 22.071067811865476,
+      "m08": 106.06601717798213
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.07106781186548,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 203
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 9,
+    "vertex1": 18,
+    "vertex2": 10,
+    "vertex3": -1,
+    "neighbours": [
+      74,
+      52,
+      72,
+      24
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.17157287525380932,
+      "m01": -0.8578643762690467,
+      "m02": 0,
+      "m03": 1,
+      "m04": 22.071067811865472,
+      "m05": 106.06601717798213,
+      "m06": 0.41421356237309515,
+      "m07": 6.213203435596427,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.071067811865476,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 205
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 10,
+    "vertex1": 18,
+    "vertex2": 19,
+    "vertex3": -1,
+    "neighbours": [
+      80,
+      75,
+      73,
+      26
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.41421356237309515,
+      "m01": -3.1066017177982137,
+      "m02": 0,
+      "m03": 1,
+      "m04": 14.571067811865477,
+      "m05": 53.033008588991066,
+      "m06": 0.29289321881345226,
+      "m07": 0.42893218813452333,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 207
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 10,
+    "vertex1": 19,
+    "vertex2": 11,
+    "vertex3": -1,
+    "neighbours": [
+      76,
+      56,
+      74,
+      27
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.4142135623730952,
+      "m01": -2.928932188134526,
+      "m02": 0,
+      "m03": 1,
+      "m04": 14.142135623730953,
+      "m05": 50.000000000000014,
+      "m06": -0.4142135623730952,
+      "m07": -2.928932188134526,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865476,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 209
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 11,
+    "vertex1": 19,
+    "vertex2": 20,
+    "vertex3": -1,
+    "neighbours": [
+      81,
+      77,
+      75,
+      29
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.5285954792089682,
+      "m01": -3.737734478532141,
+      "m02": 0,
+      "m03": 0.885618083164127,
+      "m04": 13.333333333333337,
+      "m05": 50.00000000000001,
+      "m06": -0.5285954792089682,
+      "m07": -3.737734478532141,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.142135623730955,
+      "y": 120.71067811865478,
+      "z": 250.00000000000003
+    },
+    "sphere": {
+      "__id__": 211
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 11,
+    "vertex1": 20,
+    "vertex2": 14,
+    "vertex3": -1,
+    "neighbours": [
+      84,
+      64,
+      76,
+      29
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.29289321881345226,
+      "m01": -0.42893218813452333,
+      "m02": 0,
+      "m03": 0.41421356237309515,
+      "m04": 3.1066017177982137,
+      "m05": 0,
+      "m06": -1,
+      "m07": -14.571067811865477,
+      "m08": -53.033008588991066
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 213
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 12,
+    "vertex1": 21,
+    "vertex2": 18,
+    "vertex3": -1,
+    "neighbours": [
+      80,
+      72,
+      79,
+      30
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.4142135623730952,
+      "m01": -3.1066017177982137,
+      "m02": 0,
+      "m03": 0.29289321881345226,
+      "m04": 0.42893218813452333,
+      "m05": 0,
+      "m06": 1,
+      "m07": 14.571067811865476,
+      "m08": 53.033008588991066
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831843,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 215
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 12,
+    "vertex1": 15,
+    "vertex2": 21,
+    "vertex3": -1,
+    "neighbours": [
+      86,
+      78,
+      66,
+      31
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.4142135623730952,
+      "m01": -2.928932188134526,
+      "m02": 0,
+      "m03": -0.4142135623730952,
+      "m04": -2.928932188134526,
+      "m05": 0,
+      "m06": 1,
+      "m07": 14.142135623730953,
+      "m08": 50.000000000000014
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865476,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 217
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 18,
+    "vertex1": 21,
+    "vertex2": 19,
+    "vertex3": -1,
+    "neighbours": [
+      82,
+      74,
+      78,
+      33
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.885618083164127,
+      "m01": -13.333333333333337,
+      "m02": -50.00000000000001,
+      "m03": 0.5285954792089682,
+      "m04": 3.737734478532141,
+      "m05": 0,
+      "m06": 0.5285954792089682,
+      "m07": 3.737734478532141,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.142135623730955,
+      "y": 120.71067811865477,
+      "z": 250.00000000000003
+    },
+    "sphere": {
+      "__id__": 219
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 19,
+    "vertex1": 22,
+    "vertex2": 20,
+    "vertex3": -1,
+    "neighbours": [
+      83,
+      76,
+      82,
+      37
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -1,
+      "m01": -14.571067811865476,
+      "m02": -53.033008588991066,
+      "m03": 0.4142135623730952,
+      "m04": 3.1066017177982137,
+      "m05": 0,
+      "m06": -0.29289321881345226,
+      "m07": -0.42893218813452333,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831843,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 221
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 19,
+    "vertex1": 21,
+    "vertex2": 22,
+    "vertex3": -1,
+    "neighbours": [
+      88,
+      81,
+      80,
+      38
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -1,
+      "m01": -14.142135623730953,
+      "m02": -50.000000000000014,
+      "m03": 0.4142135623730952,
+      "m04": 2.928932188134526,
+      "m05": 0,
+      "m06": 0.4142135623730952,
+      "m07": 2.928932188134526,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865477,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 223
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 20,
+    "vertex1": 22,
+    "vertex2": 23,
+    "vertex3": -1,
+    "neighbours": [
+      92,
+      84,
+      81,
+      40
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -1,
+      "m01": -22.071067811865472,
+      "m02": -106.06601717798213,
+      "m03": 0.17157287525380932,
+      "m04": 0.8578643762690467,
+      "m05": 0,
+      "m06": -0.41421356237309515,
+      "m07": -6.213203435596427,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.07106781186548,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 225
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 14,
+    "vertex1": 20,
+    "vertex2": 23,
+    "vertex3": -1,
+    "neighbours": [
+      83,
+      85,
+      77,
+      40
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.41421356237309515,
+      "m01": -6.213203435596427,
+      "m02": 0,
+      "m03": 0.17157287525380932,
+      "m04": 0.8578643762690467,
+      "m05": 0,
+      "m06": -1,
+      "m07": -22.071067811865472,
+      "m08": -106.06601717798213
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.07106781186548,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 227
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 14,
+    "vertex1": 23,
+    "vertex2": 17,
+    "vertex3": -1,
+    "neighbours": [
+      95,
+      71,
+      84,
+      41
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.4142135623730952,
+      "m01": -2.928932188134526,
+      "m02": 0,
+      "m03": -0.4142135623730952,
+      "m04": -2.928932188134526,
+      "m05": 0,
+      "m06": -1,
+      "m07": -14.142135623730953,
+      "m08": -50.000000000000014
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865476,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 229
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 15,
+    "vertex1": 24,
+    "vertex2": 21,
+    "vertex3": -1,
+    "neighbours": [
+      88,
+      79,
+      87,
+      42
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.5285954792089682,
+      "m01": -3.737734478532141,
+      "m02": 0,
+      "m03": -0.5285954792089682,
+      "m04": -3.737734478532141,
+      "m05": 0,
+      "m06": 0.885618083164127,
+      "m07": 13.333333333333337,
+      "m08": 50.00000000000001
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.142135623730955,
+      "y": 120.71067811865477,
+      "z": 250.00000000000003
+    },
+    "sphere": {
+      "__id__": 231
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 15,
+    "vertex1": 16,
+    "vertex2": 24,
+    "vertex3": -1,
+    "neighbours": [
+      90,
+      86,
+      68,
+      42
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.29289321881345226,
+      "m01": -0.42893218813452333,
+      "m02": 0,
+      "m03": -1,
+      "m04": -14.571067811865477,
+      "m05": -53.033008588991066,
+      "m06": 0.4142135623730952,
+      "m07": 3.1066017177982137,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 233
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 21,
+    "vertex1": 24,
+    "vertex2": 22,
+    "vertex3": -1,
+    "neighbours": [
+      89,
+      82,
+      86,
+      43
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -1,
+      "m01": -14.571067811865477,
+      "m02": -53.033008588991066,
+      "m03": -0.29289321881345226,
+      "m04": -0.42893218813452333,
+      "m05": 0,
+      "m06": 0.41421356237309515,
+      "m07": 3.1066017177982137,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.571067811865476,
+      "y": 125.88834764831846,
+      "z": 265.1650429449553
+    },
+    "sphere": {
+      "__id__": 235
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 22,
+    "vertex1": 24,
+    "vertex2": 25,
+    "vertex3": -1,
+    "neighbours": [
+      90,
+      92,
+      88,
+      44
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -1,
+      "m01": -22.071067811865472,
+      "m02": -106.06601717798213,
+      "m03": -0.41421356237309515,
+      "m04": -6.213203435596427,
+      "m05": 0,
+      "m06": 0.17157287525380932,
+      "m07": 0.8578643762690467,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.07106781186548,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 237
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 16,
+    "vertex1": 25,
+    "vertex2": 24,
+    "vertex3": -1,
+    "neighbours": [
+      89,
+      87,
+      91,
+      44
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.4142135623730952,
+      "m01": -6.213203435596427,
+      "m02": 0,
+      "m03": -1,
+      "m04": -22.071067811865476,
+      "m05": -106.06601717798213,
+      "m06": 0.17157287525380932,
+      "m07": 0.8578643762690467,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 27.07106781186548,
+      "y": 216.42135623730948,
+      "z": 530.3300858899106
+    },
+    "sphere": {
+      "__id__": 239
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 16,
+    "vertex1": 17,
+    "vertex2": 25,
+    "vertex3": -1,
+    "neighbours": [
+      94,
+      90,
+      70,
+      45
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.4142135623730952,
+      "m01": -2.928932188134526,
+      "m02": 0,
+      "m03": -1,
+      "m04": -14.142135623730953,
+      "m05": -50.000000000000014,
+      "m06": -0.4142135623730952,
+      "m07": -2.928932188134526,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865476,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 241
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 22,
+    "vertex1": 25,
+    "vertex2": 23,
+    "vertex3": -1,
+    "neighbours": [
+      93,
+      83,
+      89,
+      46
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -1,
+      "m01": -14.142135623730953,
+      "m02": -50.000000000000014,
+      "m03": -0.4142135623730952,
+      "m04": -2.928932188134526,
+      "m05": 0,
+      "m06": -0.4142135623730952,
+      "m07": -2.928932188134526,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 19.14213562373095,
+      "y": 120.71067811865476,
+      "z": 250.00000000000006
+    },
+    "sphere": {
+      "__id__": 243
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 23,
+    "vertex1": 25,
+    "vertex2": 26,
+    "vertex3": -1,
+    "neighbours": [
+      94,
+      95,
+      92,
+      47
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -1.0963763171773133,
+      "m01": -20.000000000000004,
+      "m02": -86.60254037844388,
+      "m03": -0.3178372451957819,
+      "m04": -2.247448713915888,
+      "m05": 0,
+      "m06": -0.3178372451957819,
+      "m07": -2.247448713915888,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 22.802389661575337,
+      "y": 172.4744871391589,
+      "z": 433.01270189221935
+    },
+    "sphere": {
+      "__id__": 245
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 17,
+    "vertex1": 26,
+    "vertex2": 25,
+    "vertex3": -1,
+    "neighbours": [
+      93,
+      91,
+      95,
+      47
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.3178372451957819,
+      "m01": -2.247448713915888,
+      "m02": 0,
+      "m03": -1.0963763171773133,
+      "m04": -20.000000000000007,
+      "m05": -86.60254037844388,
+      "m06": -0.3178372451957819,
+      "m07": -2.247448713915888,
+      "m08": 0
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 22.802389661575337,
+      "y": 172.4744871391589,
+      "z": 433.01270189221935
+    },
+    "sphere": {
+      "__id__": 247
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  },
+  {
+    "__type__": "cc.Tetrahedron",
+    "invalid": false,
+    "vertex0": 17,
+    "vertex1": 23,
+    "vertex2": 26,
+    "vertex3": -1,
+    "neighbours": [
+      93,
+      94,
+      85,
+      47
+    ],
+    "matrix": {
+      "__type__": "cc.Mat3",
+      "m00": -0.3178372451957819,
+      "m01": -2.247448713915888,
+      "m02": 0,
+      "m03": -0.3178372451957819,
+      "m04": -2.247448713915888,
+      "m05": 0,
+      "m06": -1.0963763171773133,
+      "m07": -20.000000000000004,
+      "m08": -86.60254037844388
+    },
+    "offset": {
+      "__type__": "cc.Vec3",
+      "x": 22.802389661575337,
+      "y": 172.4744871391589,
+      "z": 433.01270189221935
+    },
+    "sphere": {
+      "__id__": 249
+    }
+  },
+  {
+    "__type__": "cc.CircumSphere",
+    "center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radiusSquared": 0
+  }
+]
