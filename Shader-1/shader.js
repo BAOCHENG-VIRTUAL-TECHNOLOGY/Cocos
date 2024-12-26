@@ -48,40 +48,55 @@ function main(){
     
     const positions = [
         0,0,
-        0,0.5,
         0.7,0,
         0,0.5,
-        0.7,0.5,
-        0.7,0
+        0.7,0.5,        
     ];
+
+    gl.enable(gl.CULL_FACE);
 
     const vertexBuffer = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
 
+    const indices = [
+        0, 1, 2,
+        2, 1, 3
+    ];
+
+    const indexBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, indexBuffer);
+    gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint8Array(indices), gl.STATIC_DRAW);
+
     const fragmentSource = `
     precision mediump float;
     
+    uniform vec4 u_color;
+
     void main(){
-        gl_FragColor = vec4(1.0, 0.0, 0.5, 1.0);
+        gl_FragColor = u_color;
     }
     `;
 
     const fragmentShader = createShader(gl, gl.FRAGMENT_SHADER, fragmentSource);
     const program = createProgram(gl, vertexShader, fragmentShader);
 
-    gl.viewport(0,0,gl.canvas.width, gl.canvas.height);
+    gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
     gl.clearColor(0,0,0,1);
     gl.clear(gl.COLOR_BUFFER_BIT);
 
     gl.useProgram(program);
+
     const positionAttributeLocation = gl.getAttribLocation(program, 'a_position');
     gl.enableVertexAttribArray(positionAttributeLocation);
 
     gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
-    gl.vertexAttribPointer(positionAttributeLocation,2, gl.FLOAT, false, 0, 0);
+    gl.vertexAttribPointer(positionAttributeLocation, 2, gl.FLOAT, false, 0, 0);
 
-    gl.drawArrays(gl.TRIANGLES, 0, 6);
+    const vertexColorLocation = gl.getUniformLocation(program, 'u_color');
+    gl.uniform4fv(vertexColorLocation, [Math.random(), Math.random(), Math.random(), 1]);
+    // gl.drawArrays(gl.TRIANGLES, 0, 6);
+    gl.drawElements(gl.TRIANGLES, 6, gl.UNSIGNED_BYTE, 0);
 }
 
 main();
