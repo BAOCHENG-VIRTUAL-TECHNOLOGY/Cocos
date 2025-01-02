@@ -1,5 +1,14 @@
 # Cocos
 
+|                            |                                                              |
+| -------------------------- | ------------------------------------------------------------ |
+| TypeScript 编程入门        | https://www.bilibili.com/video/BV1qJhHetEHY                  |
+| Cocos Creator 3.8 由浅入深 | https://www.bilibili.com/video/BV1LN41187y7                  |
+| Cocos多平台发布教程        | https://www.bilibili.com/video/BV1mZ85esEYL                  |
+| 渲染                       | [-不捣药的玉兔-的个人空间--不捣药的玉兔-个人主页-哔哩哔哩视频](https://space.bilibili.com/634931989) |
+| 独立游戏                   | [索拉斯的熔炉的个人空间-索拉斯的熔炉个人主页-哔哩哔哩视频](https://space.bilibili.com/3220524) |
+| 2D游戏                     | [谢谢给我的一切的个人空间-谢谢给我的一切个人主页-哔哩哔哩视频](https://space.bilibili.com/3546559352408708) |
+
 以下是一份针对 Cocos 高级工程师面试的准备安排，你可以根据自己的实际情况进行调整和补充：
 
 - 第一阶段：技术知识回顾与梳理（1 - 2 周）
