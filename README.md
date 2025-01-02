@@ -1,6 +1,6 @@
 # Cocos
 
-|                            |                                                              |
+| Content                    |                                                              |
 | -------------------------- | ------------------------------------------------------------ |
 | TypeScript 编程入门        | https://www.bilibili.com/video/BV1qJhHetEHY                  |
 | Cocos Creator 3.8 由浅入深 | https://www.bilibili.com/video/BV1LN41187y7                  |
